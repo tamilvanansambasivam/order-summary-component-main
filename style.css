@@ -117,10 +117,16 @@ a.cancel-btn:hover {
   body {
     background-image: url(images/pattern-background-mobile.svg);
     font-size: 14px;
+    padding: 10%;
   }
 
   .container {
-    max-width: 87%;
+    max-width: 100%;
+  }
+
+  .hero img {
+    height: 100%;
+    object-fit: contain;
   }
 
   .title {
